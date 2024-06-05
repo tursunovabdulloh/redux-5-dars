@@ -8,8 +8,8 @@ import MainLayout from "./layout/MainLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Register from "./pages/Register";
 import Login from "./pages/Login";
+import SignUp from "./pages/SignUp";
 import { useSelector } from "react-redux";
 
 function App() {
@@ -39,8 +39,12 @@ function App() {
       ],
     },
     {
-      path: "/register",
-      element: user ? <Navigate to="/" /> : <Register />,
+      path: "/login",
+      element: user ? <Navigate to="/" /> : <Login />,
+    },
+    {
+      path: "/signup",
+      element: user ? <Navigate to="/" /> : <SignUp />,
     },
   ]);
 

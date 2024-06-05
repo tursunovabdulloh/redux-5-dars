@@ -3,6 +3,11 @@
   flex-direction: column;
 }
 .box {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   width: 690px;
@@ -10,8 +15,6 @@
   background: #5882c147;
   border-radius: 40px;
   margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 48px;
   padding-left: 96px;
   padding-right: 61px;
