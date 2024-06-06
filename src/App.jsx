@@ -40,11 +40,11 @@ function App() {
     },
     {
       path: "/login",
-      element: user ? <Navigate to="/" /> : <Login />,
+      element: user ? <Navigate to="/login" /> : <Login />,
     },
     {
       path: "/signup",
-      element: user ? <Navigate to="/" /> : <SignUp />,
+      element: user ? <Navigate to="/signup" /> : <SignUp />,
     },
   ]);
 

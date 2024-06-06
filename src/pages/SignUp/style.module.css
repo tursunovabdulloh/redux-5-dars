@@ -66,8 +66,31 @@
   border: 0;
   border-radius: 11px;
 }
-.a {
-  margin-top: 20px;
-  margin-left: 230px;
+.submitBtn:hover {
+  opacity: 0.5;
+}
+.errorInput {
+  border: 2px solid red;
+}
+
+.errorMessage {
   color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  width: 500px;
+  height: 50px;
+  background-color: #003465;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.18px;
+  color: #fff;
+  border: 0;
+  border-radius: 11px;
 }
